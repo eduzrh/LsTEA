@@ -8,7 +8,7 @@ https://github.com/MaoXinn/Dual-AMN
 https://github.com/nju-websoft/JAPE
 https://github.com/1049451037/GCN-Align
 
-Million-Scale TKGA (T-2M、YAGO-WIKI-2M):
+Our Million-Scale TKGA (T-2M、YAGO-WIKI-2M):
 https://drive.google.com/drive/folders/11raFe7shjMvendajb2wZ0Ab4xPB090YE?usp=sharing
 
 
