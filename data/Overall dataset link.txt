@@ -1,0 +1,22 @@
+BETA：
+https://github.com/DexterZeng/BETA/
+https://pan.baidu.com/s/1TKZvjsDgqUrOAGKe6MRf9A?pwd=pnax
+https://drive.google.com/drive/folders/1P-YtGgoEh_y2RwKTS-YeM0X1sdWlWDEV?usp=sharing
+
+DICEWS，YAGO-WIKI50K：
+https://github.com/MaoXinn/Dual-AMN
+https://github.com/nju-websoft/JAPE
+https://github.com/1049451037/GCN-Align
+
+Million-Scale TKGA (T-2M、YAGO-WIKI-2M):
+https://drive.google.com/drive/folders/11raFe7shjMvendajb2wZ0Ab4xPB090YE?usp=sharing
+
+
+Static Large-Scale KGA (DBP1M/EN-FR、DBP1M/EN-DE、FBDBP2M、IDS15K/EN-FR、IDS15K/EN-DE、DBP15K/ZH-EN、DBP15K/JA-EN、DBP15K/FR-EN、IDS100K/EN-FR、IDS100K/EN-DE、DWY100K/DBP-WD、DWY100K/DBP-YG、DBP1M/EN-FR、DBP1M/EN-DE、FBDBP2M):
+https://github.com/nju-websoft/OpenEA
+https://github.com/kosugi11037/bert-int
+https://github.com/DexterZeng/LIME
+https://1drv.ms/u/s!Ar-uYoG1mfiLkx97L7j4MrVUMazO?e=8SSjgt
+https://github.com/wx-qzhou/ELsEA
+https://github.com/ZJU-DAILY/LargeEA
+https://drive.google.com/file/d/15jeGD-6pVGlqI5jCn7KJfGIER6AeoQ-L/view?usp=sharing
