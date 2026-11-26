@@ -10,7 +10,7 @@ https://github.com/1049451037/GCN-Align
 
 Our Million-Scale TKGA (T-2M、YAGO-WIKI-2M):
 https://drive.google.com/drive/folders/11raFe7shjMvendajb2wZ0Ab4xPB090YE?usp=sharing
-
+code：lstea
 
 Static Large-Scale KGA (DBP1M/EN-FR、DBP1M/EN-DE、FBDBP2M、IDS15K/EN-FR、IDS15K/EN-DE、DBP15K/ZH-EN、DBP15K/JA-EN、DBP15K/FR-EN、IDS100K/EN-FR、IDS100K/EN-DE、DWY100K/DBP-WD、DWY100K/DBP-YG、DBP1M/EN-FR、DBP1M/EN-DE、FBDBP2M):
 https://github.com/nju-websoft/OpenEA
