@@ -135,8 +135,7 @@ For our newly proposed **LsTEA** scenario, we introduce a series of benchmark da
 ### 🔗 Download Links
 
 
-
-![Google Drive](https://img.shields.io/badge/Google_Drive-Download-green?style=for-the-badge)(https://drive.google.com/drive/folders/11raFe7shjMvendajb2wZ0Ab4xPB090YE?usp=sharing)
+[![Google Drive](https://img.shields.io/badge/Google_Drive-Download-green?style=for-the-badge)](https://drive.google.com/drive/folders/11raFe7shjMvendajb2wZ0Ab4xPB090YE?usp=sharing)
 
 
 
