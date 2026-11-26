@@ -1,0 +1,15 @@
+{
+  "experiment": "temporal_statistics",
+  "title": "Temporal statistics of the five LsTEA benchmarks.",
+  "kind": "derived",
+  "seeds": [
+    1011,
+    2022,
+    3033,
+    4044,
+    5055
+  ],
+  "settings": [],
+  "notes": "Computed by scripts/compute_temporal_statistics.py from the packaged datasets.",
+  "reference": "Appendix C-A"
+}

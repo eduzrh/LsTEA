@@ -1,0 +1,72 @@
+{
+  "experiment": "stage_runtime",
+  "title": "Per-stage wall-clock and peak memory with TREA on four datasets.",
+  "kind": "run",
+  "seeds": [
+    1011,
+    2022,
+    3033,
+    4044,
+    5055
+  ],
+  "settings": [
+    {
+      "variant": "TPA",
+      "dataset": "DICEWS-10K",
+      "backbone": "trea",
+      "args": [
+        "--M",
+        "10000",
+        "--F",
+        "50000"
+      ],
+      "K": 5,
+      "M": 10000,
+      "F": 50000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "YAGO-WIKI50K",
+      "backbone": "trea",
+      "args": [
+        "--M",
+        "20000",
+        "--F",
+        "100000"
+      ],
+      "K": 10,
+      "M": 20000,
+      "F": 100000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "T-2M",
+      "backbone": "trea",
+      "args": [
+        "--M",
+        "50000",
+        "--F",
+        "250000"
+      ],
+      "K": 200,
+      "M": 50000,
+      "F": 250000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "YAGO-WIKI-2M",
+      "backbone": "trea",
+      "args": [
+        "--M",
+        "50000",
+        "--F",
+        "250000"
+      ],
+      "K": 200,
+      "M": 50000,
+      "F": 250000
+    }
+  ],
+  "notes": "Stage timings are emitted by TPAFramework in the runtime block.",
+  "reference": "Appendix E-D"
+}

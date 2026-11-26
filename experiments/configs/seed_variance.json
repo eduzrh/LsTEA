@@ -1,0 +1,15 @@
+{
+  "experiment": "seed_variance",
+  "title": "Run-to-run standard deviations over the five seeds.",
+  "kind": "derived",
+  "seeds": [
+    1011,
+    2022,
+    3033,
+    4044,
+    5055
+  ],
+  "settings": [],
+  "notes": "Computed from the five seed records of backbone_comparison.",
+  "reference": "Appendix E-A"
+}

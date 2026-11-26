@@ -1,0 +1,316 @@
+{
+  "experiment": "joint_ablation",
+  "title": "Joint component ablation on YAGO-WIKI50K and T-2M.",
+  "kind": "run",
+  "seeds": [
+    1011,
+    2022,
+    3033,
+    4044,
+    5055
+  ],
+  "settings": [
+    {
+      "variant": "TPA",
+      "dataset": "YAGO-WIKI50K",
+      "backbone": "trea",
+      "args": [
+        "--M",
+        "20000",
+        "--F",
+        "100000"
+      ],
+      "K": 10,
+      "M": 20000,
+      "F": 100000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "YAGO-WIKI50K",
+      "backbone": "lighttea",
+      "args": [
+        "--M",
+        "20000",
+        "--F",
+        "100000"
+      ],
+      "K": 10,
+      "M": 20000,
+      "F": 100000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "T-2M",
+      "backbone": "trea",
+      "args": [
+        "--M",
+        "50000",
+        "--F",
+        "250000"
+      ],
+      "K": 200,
+      "M": 50000,
+      "F": 250000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "T-2M",
+      "backbone": "lighttea",
+      "args": [
+        "--M",
+        "50000",
+        "--F",
+        "250000"
+      ],
+      "K": 200,
+      "M": 50000,
+      "F": 250000
+    },
+    {
+      "variant": "w/o TC & TM",
+      "dataset": "YAGO-WIKI50K",
+      "backbone": "trea",
+      "args": [
+        "--no_tc",
+        "--no_tm",
+        "--M",
+        "20000",
+        "--F",
+        "100000"
+      ],
+      "K": 10,
+      "M": 20000,
+      "F": 100000
+    },
+    {
+      "variant": "w/o TC & TM",
+      "dataset": "YAGO-WIKI50K",
+      "backbone": "lighttea",
+      "args": [
+        "--no_tc",
+        "--no_tm",
+        "--M",
+        "20000",
+        "--F",
+        "100000"
+      ],
+      "K": 10,
+      "M": 20000,
+      "F": 100000
+    },
+    {
+      "variant": "w/o TC & TM",
+      "dataset": "T-2M",
+      "backbone": "trea",
+      "args": [
+        "--no_tc",
+        "--no_tm",
+        "--M",
+        "50000",
+        "--F",
+        "250000"
+      ],
+      "K": 200,
+      "M": 50000,
+      "F": 250000
+    },
+    {
+      "variant": "w/o TC & TM",
+      "dataset": "T-2M",
+      "backbone": "lighttea",
+      "args": [
+        "--no_tc",
+        "--no_tm",
+        "--M",
+        "50000",
+        "--F",
+        "250000"
+      ],
+      "K": 200,
+      "M": 50000,
+      "F": 250000
+    },
+    {
+      "variant": "w/o TRF",
+      "dataset": "YAGO-WIKI50K",
+      "backbone": "trea",
+      "args": [
+        "--no_trf",
+        "--M",
+        "20000",
+        "--F",
+        "100000"
+      ],
+      "K": 10,
+      "M": 20000,
+      "F": 100000
+    },
+    {
+      "variant": "w/o TRF",
+      "dataset": "YAGO-WIKI50K",
+      "backbone": "lighttea",
+      "args": [
+        "--no_trf",
+        "--M",
+        "20000",
+        "--F",
+        "100000"
+      ],
+      "K": 10,
+      "M": 20000,
+      "F": 100000
+    },
+    {
+      "variant": "w/o TRF",
+      "dataset": "T-2M",
+      "backbone": "trea",
+      "args": [
+        "--no_trf",
+        "--M",
+        "50000",
+        "--F",
+        "250000"
+      ],
+      "K": 200,
+      "M": 50000,
+      "F": 250000
+    },
+    {
+      "variant": "w/o TRF",
+      "dataset": "T-2M",
+      "backbone": "lighttea",
+      "args": [
+        "--no_trf",
+        "--M",
+        "50000",
+        "--F",
+        "250000"
+      ],
+      "K": 200,
+      "M": 50000,
+      "F": 250000
+    },
+    {
+      "variant": "w/o LSV",
+      "dataset": "YAGO-WIKI50K",
+      "backbone": "trea",
+      "args": [
+        "--no_lsv",
+        "--M",
+        "20000",
+        "--F",
+        "100000"
+      ],
+      "K": 10,
+      "M": 20000,
+      "F": 100000
+    },
+    {
+      "variant": "w/o LSV",
+      "dataset": "YAGO-WIKI50K",
+      "backbone": "lighttea",
+      "args": [
+        "--no_lsv",
+        "--M",
+        "20000",
+        "--F",
+        "100000"
+      ],
+      "K": 10,
+      "M": 20000,
+      "F": 100000
+    },
+    {
+      "variant": "w/o LSV",
+      "dataset": "T-2M",
+      "backbone": "trea",
+      "args": [
+        "--no_lsv",
+        "--M",
+        "50000",
+        "--F",
+        "250000"
+      ],
+      "K": 200,
+      "M": 50000,
+      "F": 250000
+    },
+    {
+      "variant": "w/o LSV",
+      "dataset": "T-2M",
+      "backbone": "lighttea",
+      "args": [
+        "--no_lsv",
+        "--M",
+        "50000",
+        "--F",
+        "250000"
+      ],
+      "K": 200,
+      "M": 50000,
+      "F": 250000
+    },
+    {
+      "variant": "w/o TEC",
+      "dataset": "YAGO-WIKI50K",
+      "backbone": "trea",
+      "args": [
+        "--no_tec",
+        "--M",
+        "20000",
+        "--F",
+        "100000"
+      ],
+      "K": 10,
+      "M": 20000,
+      "F": 100000
+    },
+    {
+      "variant": "w/o TEC",
+      "dataset": "YAGO-WIKI50K",
+      "backbone": "lighttea",
+      "args": [
+        "--no_tec",
+        "--M",
+        "20000",
+        "--F",
+        "100000"
+      ],
+      "K": 10,
+      "M": 20000,
+      "F": 100000
+    },
+    {
+      "variant": "w/o TEC",
+      "dataset": "T-2M",
+      "backbone": "trea",
+      "args": [
+        "--no_tec",
+        "--M",
+        "50000",
+        "--F",
+        "250000"
+      ],
+      "K": 200,
+      "M": 50000,
+      "F": 250000
+    },
+    {
+      "variant": "w/o TEC",
+      "dataset": "T-2M",
+      "backbone": "lighttea",
+      "args": [
+        "--no_tec",
+        "--M",
+        "50000",
+        "--F",
+        "250000"
+      ],
+      "K": 200,
+      "M": 50000,
+      "F": 250000
+    }
+  ],
+  "notes": "",
+  "reference": "Sec. IV-C"
+}

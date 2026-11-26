@@ -1,0 +1,15 @@
+{
+  "experiment": "hits_over_recall_temporal",
+  "title": "Hits@1 / counterpart-recall ratio on the four temporal benchmarks.",
+  "kind": "derived",
+  "seeds": [
+    1011,
+    2022,
+    3033,
+    4044,
+    5055
+  ],
+  "settings": [],
+  "notes": "Derived from the per-seed records of backbone_comparison; no separate runs.",
+  "reference": "Sec. IV-B"
+}

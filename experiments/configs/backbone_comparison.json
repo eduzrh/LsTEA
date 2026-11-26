@@ -1,0 +1,352 @@
+{
+  "experiment": "backbone_comparison",
+  "title": "Main temporal alignment results: Hits@1/5, MRR, counterpart recall, runtime and peak memory on four temporal benchmarks with six backbones.",
+  "kind": "run",
+  "seeds": [
+    1011,
+    2022,
+    3033,
+    4044,
+    5055
+  ],
+  "settings": [
+    {
+      "variant": "TPA",
+      "dataset": "DICEWS-10K",
+      "backbone": "gcn_align",
+      "args": [
+        "--M",
+        "10000",
+        "--F",
+        "50000"
+      ],
+      "K": 5,
+      "M": 10000,
+      "F": 50000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "DICEWS-10K",
+      "backbone": "tea_gnn",
+      "args": [
+        "--M",
+        "10000",
+        "--F",
+        "50000"
+      ],
+      "K": 5,
+      "M": 10000,
+      "F": 50000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "DICEWS-10K",
+      "backbone": "rrea",
+      "args": [
+        "--M",
+        "10000",
+        "--F",
+        "50000"
+      ],
+      "K": 5,
+      "M": 10000,
+      "F": 50000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "DICEWS-10K",
+      "backbone": "trea",
+      "args": [
+        "--M",
+        "10000",
+        "--F",
+        "50000"
+      ],
+      "K": 5,
+      "M": 10000,
+      "F": 50000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "DICEWS-10K",
+      "backbone": "dual_amn",
+      "args": [
+        "--M",
+        "10000",
+        "--F",
+        "50000"
+      ],
+      "K": 5,
+      "M": 10000,
+      "F": 50000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "DICEWS-10K",
+      "backbone": "lighttea",
+      "args": [
+        "--M",
+        "10000",
+        "--F",
+        "50000"
+      ],
+      "K": 5,
+      "M": 10000,
+      "F": 50000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "YAGO-WIKI50K",
+      "backbone": "gcn_align",
+      "args": [
+        "--M",
+        "20000",
+        "--F",
+        "100000"
+      ],
+      "K": 10,
+      "M": 20000,
+      "F": 100000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "YAGO-WIKI50K",
+      "backbone": "tea_gnn",
+      "args": [
+        "--M",
+        "20000",
+        "--F",
+        "100000"
+      ],
+      "K": 10,
+      "M": 20000,
+      "F": 100000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "YAGO-WIKI50K",
+      "backbone": "rrea",
+      "args": [
+        "--M",
+        "20000",
+        "--F",
+        "100000"
+      ],
+      "K": 10,
+      "M": 20000,
+      "F": 100000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "YAGO-WIKI50K",
+      "backbone": "trea",
+      "args": [
+        "--M",
+        "20000",
+        "--F",
+        "100000"
+      ],
+      "K": 10,
+      "M": 20000,
+      "F": 100000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "YAGO-WIKI50K",
+      "backbone": "dual_amn",
+      "args": [
+        "--M",
+        "20000",
+        "--F",
+        "100000"
+      ],
+      "K": 10,
+      "M": 20000,
+      "F": 100000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "YAGO-WIKI50K",
+      "backbone": "lighttea",
+      "args": [
+        "--M",
+        "20000",
+        "--F",
+        "100000"
+      ],
+      "K": 10,
+      "M": 20000,
+      "F": 100000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "T-2M",
+      "backbone": "gcn_align",
+      "args": [
+        "--M",
+        "50000",
+        "--F",
+        "250000"
+      ],
+      "K": 200,
+      "M": 50000,
+      "F": 250000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "T-2M",
+      "backbone": "tea_gnn",
+      "args": [
+        "--M",
+        "50000",
+        "--F",
+        "250000"
+      ],
+      "K": 200,
+      "M": 50000,
+      "F": 250000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "T-2M",
+      "backbone": "rrea",
+      "args": [
+        "--M",
+        "50000",
+        "--F",
+        "250000"
+      ],
+      "K": 200,
+      "M": 50000,
+      "F": 250000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "T-2M",
+      "backbone": "trea",
+      "args": [
+        "--M",
+        "50000",
+        "--F",
+        "250000"
+      ],
+      "K": 200,
+      "M": 50000,
+      "F": 250000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "T-2M",
+      "backbone": "dual_amn",
+      "args": [
+        "--M",
+        "50000",
+        "--F",
+        "250000"
+      ],
+      "K": 200,
+      "M": 50000,
+      "F": 250000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "T-2M",
+      "backbone": "lighttea",
+      "args": [
+        "--M",
+        "50000",
+        "--F",
+        "250000"
+      ],
+      "K": 200,
+      "M": 50000,
+      "F": 250000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "YAGO-WIKI-2M",
+      "backbone": "gcn_align",
+      "args": [
+        "--M",
+        "50000",
+        "--F",
+        "250000"
+      ],
+      "K": 200,
+      "M": 50000,
+      "F": 250000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "YAGO-WIKI-2M",
+      "backbone": "tea_gnn",
+      "args": [
+        "--M",
+        "50000",
+        "--F",
+        "250000"
+      ],
+      "K": 200,
+      "M": 50000,
+      "F": 250000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "YAGO-WIKI-2M",
+      "backbone": "rrea",
+      "args": [
+        "--M",
+        "50000",
+        "--F",
+        "250000"
+      ],
+      "K": 200,
+      "M": 50000,
+      "F": 250000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "YAGO-WIKI-2M",
+      "backbone": "trea",
+      "args": [
+        "--M",
+        "50000",
+        "--F",
+        "250000"
+      ],
+      "K": 200,
+      "M": 50000,
+      "F": 250000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "YAGO-WIKI-2M",
+      "backbone": "dual_amn",
+      "args": [
+        "--M",
+        "50000",
+        "--F",
+        "250000"
+      ],
+      "K": 200,
+      "M": 50000,
+      "F": 250000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "YAGO-WIKI-2M",
+      "backbone": "lighttea",
+      "args": [
+        "--M",
+        "50000",
+        "--F",
+        "250000"
+      ],
+      "K": 200,
+      "M": 50000,
+      "F": 250000
+    }
+  ],
+  "notes": "20%/80% seed/test split; K by scale (5/10/200); T=5 iterations.",
+  "reference": "Sec. IV-B"
+}

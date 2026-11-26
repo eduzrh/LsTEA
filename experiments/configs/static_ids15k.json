@@ -1,0 +1,106 @@
+{
+  "experiment": "static_ids15k",
+  "title": "Remaining static benchmarks: IDS15K EN-FR / EN-DE.",
+  "kind": "run",
+  "seeds": [
+    1011,
+    2022,
+    3033,
+    4044,
+    5055
+  ],
+  "settings": [
+    {
+      "variant": "TPA",
+      "dataset": "IDS15K-EN-FR",
+      "backbone": "gcn_align",
+      "args": [
+        "--strip_timestamps",
+        "--M",
+        "10000",
+        "--F",
+        "50000"
+      ],
+      "K": 5,
+      "M": 10000,
+      "F": 50000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "IDS15K-EN-FR",
+      "backbone": "rrea",
+      "args": [
+        "--strip_timestamps",
+        "--M",
+        "10000",
+        "--F",
+        "50000"
+      ],
+      "K": 5,
+      "M": 10000,
+      "F": 50000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "IDS15K-EN-FR",
+      "backbone": "dual_amn",
+      "args": [
+        "--strip_timestamps",
+        "--M",
+        "10000",
+        "--F",
+        "50000"
+      ],
+      "K": 5,
+      "M": 10000,
+      "F": 50000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "IDS15K-EN-DE",
+      "backbone": "gcn_align",
+      "args": [
+        "--strip_timestamps",
+        "--M",
+        "10000",
+        "--F",
+        "50000"
+      ],
+      "K": 5,
+      "M": 10000,
+      "F": 50000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "IDS15K-EN-DE",
+      "backbone": "rrea",
+      "args": [
+        "--strip_timestamps",
+        "--M",
+        "10000",
+        "--F",
+        "50000"
+      ],
+      "K": 5,
+      "M": 10000,
+      "F": 50000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "IDS15K-EN-DE",
+      "backbone": "dual_amn",
+      "args": [
+        "--strip_timestamps",
+        "--M",
+        "10000",
+        "--F",
+        "50000"
+      ],
+      "K": 5,
+      "M": 10000,
+      "F": 50000
+    }
+  ],
+  "notes": "",
+  "reference": "Appendix E-H"
+}

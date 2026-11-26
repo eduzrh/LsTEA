@@ -1,0 +1,106 @@
+{
+  "experiment": "static_dwy_yg_dbp1m",
+  "title": "Remaining static benchmarks: DWY100K DBP-YG and DBP1M EN-DE.",
+  "kind": "run",
+  "seeds": [
+    1011,
+    2022,
+    3033,
+    4044,
+    5055
+  ],
+  "settings": [
+    {
+      "variant": "TPA",
+      "dataset": "DWY100K-DBP-YG",
+      "backbone": "gcn_align",
+      "args": [
+        "--strip_timestamps",
+        "--M",
+        "20000",
+        "--F",
+        "100000"
+      ],
+      "K": 10,
+      "M": 20000,
+      "F": 100000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "DWY100K-DBP-YG",
+      "backbone": "rrea",
+      "args": [
+        "--strip_timestamps",
+        "--M",
+        "20000",
+        "--F",
+        "100000"
+      ],
+      "K": 10,
+      "M": 20000,
+      "F": 100000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "DWY100K-DBP-YG",
+      "backbone": "dual_amn",
+      "args": [
+        "--strip_timestamps",
+        "--M",
+        "20000",
+        "--F",
+        "100000"
+      ],
+      "K": 10,
+      "M": 20000,
+      "F": 100000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "DBP1M-EN-DE",
+      "backbone": "gcn_align",
+      "args": [
+        "--strip_timestamps",
+        "--M",
+        "50000",
+        "--F",
+        "250000"
+      ],
+      "K": 100,
+      "M": 50000,
+      "F": 250000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "DBP1M-EN-DE",
+      "backbone": "rrea",
+      "args": [
+        "--strip_timestamps",
+        "--M",
+        "50000",
+        "--F",
+        "250000"
+      ],
+      "K": 100,
+      "M": 50000,
+      "F": 250000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "DBP1M-EN-DE",
+      "backbone": "dual_amn",
+      "args": [
+        "--strip_timestamps",
+        "--M",
+        "50000",
+        "--F",
+        "250000"
+      ],
+      "K": 100,
+      "M": 50000,
+      "F": 250000
+    }
+  ],
+  "notes": "",
+  "reference": "Appendix E-H"
+}

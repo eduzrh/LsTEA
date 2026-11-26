@@ -1,0 +1,144 @@
+{
+  "experiment": "partition_count_sweep",
+  "title": "Effect of the per-side partition count K with TREA.",
+  "kind": "run",
+  "seeds": [
+    1011,
+    2022,
+    3033,
+    4044,
+    5055
+  ],
+  "settings": [
+    {
+      "variant": "K=3",
+      "dataset": "YAGO-WIKI50K",
+      "backbone": "trea",
+      "args": [
+        "--K",
+        "3",
+        "--M",
+        "20000",
+        "--F",
+        "100000"
+      ],
+      "K": 10,
+      "M": 20000,
+      "F": 100000
+    },
+    {
+      "variant": "K=5",
+      "dataset": "YAGO-WIKI50K",
+      "backbone": "trea",
+      "args": [
+        "--K",
+        "5",
+        "--M",
+        "20000",
+        "--F",
+        "100000"
+      ],
+      "K": 10,
+      "M": 20000,
+      "F": 100000
+    },
+    {
+      "variant": "K=7",
+      "dataset": "YAGO-WIKI50K",
+      "backbone": "trea",
+      "args": [
+        "--K",
+        "7",
+        "--M",
+        "20000",
+        "--F",
+        "100000"
+      ],
+      "K": 10,
+      "M": 20000,
+      "F": 100000
+    },
+    {
+      "variant": "K=10",
+      "dataset": "YAGO-WIKI50K",
+      "backbone": "trea",
+      "args": [
+        "--K",
+        "10",
+        "--M",
+        "20000",
+        "--F",
+        "100000"
+      ],
+      "K": 10,
+      "M": 20000,
+      "F": 100000
+    },
+    {
+      "variant": "K=160",
+      "dataset": "T-2M",
+      "backbone": "trea",
+      "args": [
+        "--K",
+        "160",
+        "--M",
+        "50000",
+        "--F",
+        "250000"
+      ],
+      "K": 200,
+      "M": 50000,
+      "F": 250000
+    },
+    {
+      "variant": "K=180",
+      "dataset": "T-2M",
+      "backbone": "trea",
+      "args": [
+        "--K",
+        "180",
+        "--M",
+        "50000",
+        "--F",
+        "250000"
+      ],
+      "K": 200,
+      "M": 50000,
+      "F": 250000
+    },
+    {
+      "variant": "K=200",
+      "dataset": "T-2M",
+      "backbone": "trea",
+      "args": [
+        "--K",
+        "200",
+        "--M",
+        "50000",
+        "--F",
+        "250000"
+      ],
+      "K": 200,
+      "M": 50000,
+      "F": 250000
+    },
+    {
+      "variant": "K=220",
+      "dataset": "T-2M",
+      "backbone": "trea",
+      "args": [
+        "--K",
+        "220",
+        "--M",
+        "50000",
+        "--F",
+        "250000"
+      ],
+      "K": 200,
+      "M": 50000,
+      "F": 250000
+    }
+  ],
+  "notes": "",
+  "reference": "Sec. IV-D"
+}

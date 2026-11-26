@@ -1,0 +1,100 @@
+{
+  "experiment": "mixed_granularity",
+  "title": "BETA mixed temporal granularities with all six backbones.",
+  "kind": "run",
+  "seeds": [
+    1011,
+    2022,
+    3033,
+    4044,
+    5055
+  ],
+  "settings": [
+    {
+      "variant": "TPA",
+      "dataset": "BETA",
+      "backbone": "gcn_align",
+      "args": [
+        "--M",
+        "20000",
+        "--F",
+        "100000"
+      ],
+      "K": 10,
+      "M": 20000,
+      "F": 100000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "BETA",
+      "backbone": "tea_gnn",
+      "args": [
+        "--M",
+        "20000",
+        "--F",
+        "100000"
+      ],
+      "K": 10,
+      "M": 20000,
+      "F": 100000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "BETA",
+      "backbone": "rrea",
+      "args": [
+        "--M",
+        "20000",
+        "--F",
+        "100000"
+      ],
+      "K": 10,
+      "M": 20000,
+      "F": 100000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "BETA",
+      "backbone": "trea",
+      "args": [
+        "--M",
+        "20000",
+        "--F",
+        "100000"
+      ],
+      "K": 10,
+      "M": 20000,
+      "F": 100000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "BETA",
+      "backbone": "dual_amn",
+      "args": [
+        "--M",
+        "20000",
+        "--F",
+        "100000"
+      ],
+      "K": 10,
+      "M": 20000,
+      "F": 100000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "BETA",
+      "backbone": "lighttea",
+      "args": [
+        "--M",
+        "20000",
+        "--F",
+        "100000"
+      ],
+      "K": 10,
+      "M": 20000,
+      "F": 100000
+    }
+  ],
+  "notes": "",
+  "reference": "Sec. IV-E"
+}

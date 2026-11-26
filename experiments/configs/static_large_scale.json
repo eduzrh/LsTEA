@@ -1,0 +1,106 @@
+{
+  "experiment": "static_large_scale",
+  "title": "Static large-scale results on DBP15K FR-EN and DBP1M EN-FR.",
+  "kind": "run",
+  "seeds": [
+    1011,
+    2022,
+    3033,
+    4044,
+    5055
+  ],
+  "settings": [
+    {
+      "variant": "TPA",
+      "dataset": "DBP15K-FR-EN",
+      "backbone": "gcn_align",
+      "args": [
+        "--strip_timestamps",
+        "--M",
+        "10000",
+        "--F",
+        "50000"
+      ],
+      "K": 5,
+      "M": 10000,
+      "F": 50000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "DBP15K-FR-EN",
+      "backbone": "rrea",
+      "args": [
+        "--strip_timestamps",
+        "--M",
+        "10000",
+        "--F",
+        "50000"
+      ],
+      "K": 5,
+      "M": 10000,
+      "F": 50000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "DBP15K-FR-EN",
+      "backbone": "dual_amn",
+      "args": [
+        "--strip_timestamps",
+        "--M",
+        "10000",
+        "--F",
+        "50000"
+      ],
+      "K": 5,
+      "M": 10000,
+      "F": 50000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "DBP1M-EN-FR",
+      "backbone": "gcn_align",
+      "args": [
+        "--strip_timestamps",
+        "--M",
+        "50000",
+        "--F",
+        "250000"
+      ],
+      "K": 100,
+      "M": 50000,
+      "F": 250000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "DBP1M-EN-FR",
+      "backbone": "rrea",
+      "args": [
+        "--strip_timestamps",
+        "--M",
+        "50000",
+        "--F",
+        "250000"
+      ],
+      "K": 100,
+      "M": 50000,
+      "F": 250000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "DBP1M-EN-FR",
+      "backbone": "dual_amn",
+      "args": [
+        "--strip_timestamps",
+        "--M",
+        "50000",
+        "--F",
+        "250000"
+      ],
+      "K": 100,
+      "M": 50000,
+      "F": 250000
+    }
+  ],
+  "notes": "Static protocol: no timestamps, N=1, structural degeneration.",
+  "reference": "Sec. IV-F"
+}

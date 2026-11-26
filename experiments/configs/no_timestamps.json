@@ -1,0 +1,248 @@
+{
+  "experiment": "no_timestamps",
+  "title": "TPA without timestamps versus ELsEA and full TPA.",
+  "kind": "run",
+  "seeds": [
+    1011,
+    2022,
+    3033,
+    4044,
+    5055
+  ],
+  "settings": [
+    {
+      "variant": "TPA w/o timestamps",
+      "dataset": "DICEWS-10K",
+      "backbone": "trea",
+      "args": [
+        "--strip_timestamps",
+        "--M",
+        "10000",
+        "--F",
+        "50000"
+      ],
+      "K": 5,
+      "M": 10000,
+      "F": 50000
+    },
+    {
+      "variant": "TPA w/o timestamps",
+      "dataset": "DICEWS-10K",
+      "backbone": "lighttea",
+      "args": [
+        "--strip_timestamps",
+        "--M",
+        "10000",
+        "--F",
+        "50000"
+      ],
+      "K": 5,
+      "M": 10000,
+      "F": 50000
+    },
+    {
+      "variant": "TPA w/o timestamps",
+      "dataset": "YAGO-WIKI50K",
+      "backbone": "trea",
+      "args": [
+        "--strip_timestamps",
+        "--M",
+        "20000",
+        "--F",
+        "100000"
+      ],
+      "K": 10,
+      "M": 20000,
+      "F": 100000
+    },
+    {
+      "variant": "TPA w/o timestamps",
+      "dataset": "YAGO-WIKI50K",
+      "backbone": "lighttea",
+      "args": [
+        "--strip_timestamps",
+        "--M",
+        "20000",
+        "--F",
+        "100000"
+      ],
+      "K": 10,
+      "M": 20000,
+      "F": 100000
+    },
+    {
+      "variant": "TPA w/o timestamps",
+      "dataset": "T-2M",
+      "backbone": "trea",
+      "args": [
+        "--strip_timestamps",
+        "--M",
+        "50000",
+        "--F",
+        "250000"
+      ],
+      "K": 200,
+      "M": 50000,
+      "F": 250000
+    },
+    {
+      "variant": "TPA w/o timestamps",
+      "dataset": "T-2M",
+      "backbone": "lighttea",
+      "args": [
+        "--strip_timestamps",
+        "--M",
+        "50000",
+        "--F",
+        "250000"
+      ],
+      "K": 200,
+      "M": 50000,
+      "F": 250000
+    },
+    {
+      "variant": "TPA w/o timestamps",
+      "dataset": "YAGO-WIKI-2M",
+      "backbone": "trea",
+      "args": [
+        "--strip_timestamps",
+        "--M",
+        "50000",
+        "--F",
+        "250000"
+      ],
+      "K": 200,
+      "M": 50000,
+      "F": 250000
+    },
+    {
+      "variant": "TPA w/o timestamps",
+      "dataset": "YAGO-WIKI-2M",
+      "backbone": "lighttea",
+      "args": [
+        "--strip_timestamps",
+        "--M",
+        "50000",
+        "--F",
+        "250000"
+      ],
+      "K": 200,
+      "M": 50000,
+      "F": 250000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "DICEWS-10K",
+      "backbone": "trea",
+      "args": [
+        "--M",
+        "10000",
+        "--F",
+        "50000"
+      ],
+      "K": 5,
+      "M": 10000,
+      "F": 50000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "DICEWS-10K",
+      "backbone": "lighttea",
+      "args": [
+        "--M",
+        "10000",
+        "--F",
+        "50000"
+      ],
+      "K": 5,
+      "M": 10000,
+      "F": 50000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "YAGO-WIKI50K",
+      "backbone": "trea",
+      "args": [
+        "--M",
+        "20000",
+        "--F",
+        "100000"
+      ],
+      "K": 10,
+      "M": 20000,
+      "F": 100000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "YAGO-WIKI50K",
+      "backbone": "lighttea",
+      "args": [
+        "--M",
+        "20000",
+        "--F",
+        "100000"
+      ],
+      "K": 10,
+      "M": 20000,
+      "F": 100000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "T-2M",
+      "backbone": "trea",
+      "args": [
+        "--M",
+        "50000",
+        "--F",
+        "250000"
+      ],
+      "K": 200,
+      "M": 50000,
+      "F": 250000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "T-2M",
+      "backbone": "lighttea",
+      "args": [
+        "--M",
+        "50000",
+        "--F",
+        "250000"
+      ],
+      "K": 200,
+      "M": 50000,
+      "F": 250000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "YAGO-WIKI-2M",
+      "backbone": "trea",
+      "args": [
+        "--M",
+        "50000",
+        "--F",
+        "250000"
+      ],
+      "K": 200,
+      "M": 50000,
+      "F": 250000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "YAGO-WIKI-2M",
+      "backbone": "lighttea",
+      "args": [
+        "--M",
+        "50000",
+        "--F",
+        "250000"
+      ],
+      "K": 200,
+      "M": 50000,
+      "F": 250000
+    }
+  ],
+  "notes": "",
+  "reference": "Appendix E-B"
+}

@@ -1,0 +1,96 @@
+{
+  "experiment": "kg_size_scaling",
+  "title": "Scaling with KG size on connected subgraphs of T-2M (TREA).",
+  "kind": "run",
+  "seeds": [
+    1011,
+    2022,
+    3033,
+    4044,
+    5055
+  ],
+  "settings": [
+    {
+      "variant": "TPA",
+      "dataset": "T-2M-100K",
+      "backbone": "trea",
+      "args": [
+        "--K",
+        "10",
+        "--M",
+        "50000",
+        "--F",
+        "250000"
+      ],
+      "K": null,
+      "M": 50000,
+      "F": 250000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "T-2M-250K",
+      "backbone": "trea",
+      "args": [
+        "--K",
+        "25",
+        "--M",
+        "50000",
+        "--F",
+        "250000"
+      ],
+      "K": null,
+      "M": 50000,
+      "F": 250000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "T-2M-500K",
+      "backbone": "trea",
+      "args": [
+        "--K",
+        "50",
+        "--M",
+        "50000",
+        "--F",
+        "250000"
+      ],
+      "K": null,
+      "M": 50000,
+      "F": 250000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "T-2M-1M",
+      "backbone": "trea",
+      "args": [
+        "--K",
+        "100",
+        "--M",
+        "50000",
+        "--F",
+        "250000"
+      ],
+      "K": null,
+      "M": 50000,
+      "F": 250000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "T-2M-2M",
+      "backbone": "trea",
+      "args": [
+        "--K",
+        "200",
+        "--M",
+        "50000",
+        "--F",
+        "250000"
+      ],
+      "K": null,
+      "M": 50000,
+      "F": 250000
+    }
+  ],
+  "notes": "Subgraphs are produced by scripts/sample_connected_subgraph.py.",
+  "reference": "Appendix E-G"
+}

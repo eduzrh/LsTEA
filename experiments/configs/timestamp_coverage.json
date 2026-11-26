@@ -1,0 +1,272 @@
+{
+  "experiment": "timestamp_coverage",
+  "title": "Controlled timestamp granularity and coverage (TREA).",
+  "kind": "run",
+  "seeds": [
+    1011,
+    2022,
+    3033,
+    4044,
+    5055
+  ],
+  "settings": [
+    {
+      "variant": "Granularity: day",
+      "dataset": "YAGO-WIKI50K",
+      "backbone": "trea",
+      "args": [
+        "--time_granularity",
+        "day",
+        "--M",
+        "20000",
+        "--F",
+        "100000"
+      ],
+      "K": 10,
+      "M": 20000,
+      "F": 100000
+    },
+    {
+      "variant": "Granularity: month",
+      "dataset": "YAGO-WIKI50K",
+      "backbone": "trea",
+      "args": [
+        "--time_granularity",
+        "month",
+        "--M",
+        "20000",
+        "--F",
+        "100000"
+      ],
+      "K": 10,
+      "M": 20000,
+      "F": 100000
+    },
+    {
+      "variant": "Granularity: year",
+      "dataset": "YAGO-WIKI50K",
+      "backbone": "trea",
+      "args": [
+        "--time_granularity",
+        "year",
+        "--M",
+        "20000",
+        "--F",
+        "100000"
+      ],
+      "K": 10,
+      "M": 20000,
+      "F": 100000
+    },
+    {
+      "variant": "Granularity: day",
+      "dataset": "T-2M",
+      "backbone": "trea",
+      "args": [
+        "--time_granularity",
+        "day",
+        "--M",
+        "50000",
+        "--F",
+        "250000"
+      ],
+      "K": 200,
+      "M": 50000,
+      "F": 250000
+    },
+    {
+      "variant": "Granularity: month",
+      "dataset": "T-2M",
+      "backbone": "trea",
+      "args": [
+        "--time_granularity",
+        "month",
+        "--M",
+        "50000",
+        "--F",
+        "250000"
+      ],
+      "K": 200,
+      "M": 50000,
+      "F": 250000
+    },
+    {
+      "variant": "Granularity: year",
+      "dataset": "T-2M",
+      "backbone": "trea",
+      "args": [
+        "--time_granularity",
+        "year",
+        "--M",
+        "50000",
+        "--F",
+        "250000"
+      ],
+      "K": 200,
+      "M": 50000,
+      "F": 250000
+    },
+    {
+      "variant": "Coverage: 100%",
+      "dataset": "YAGO-WIKI50K",
+      "backbone": "trea",
+      "args": [
+        "--time_coverage",
+        "1.0",
+        "--M",
+        "20000",
+        "--F",
+        "100000"
+      ],
+      "K": 10,
+      "M": 20000,
+      "F": 100000
+    },
+    {
+      "variant": "Coverage: 75%",
+      "dataset": "YAGO-WIKI50K",
+      "backbone": "trea",
+      "args": [
+        "--time_coverage",
+        "0.75",
+        "--M",
+        "20000",
+        "--F",
+        "100000"
+      ],
+      "K": 10,
+      "M": 20000,
+      "F": 100000
+    },
+    {
+      "variant": "Coverage: 50%",
+      "dataset": "YAGO-WIKI50K",
+      "backbone": "trea",
+      "args": [
+        "--time_coverage",
+        "0.5",
+        "--M",
+        "20000",
+        "--F",
+        "100000"
+      ],
+      "K": 10,
+      "M": 20000,
+      "F": 100000
+    },
+    {
+      "variant": "Coverage: 25%",
+      "dataset": "YAGO-WIKI50K",
+      "backbone": "trea",
+      "args": [
+        "--time_coverage",
+        "0.25",
+        "--M",
+        "20000",
+        "--F",
+        "100000"
+      ],
+      "K": 10,
+      "M": 20000,
+      "F": 100000
+    },
+    {
+      "variant": "Coverage: 0%",
+      "dataset": "YAGO-WIKI50K",
+      "backbone": "trea",
+      "args": [
+        "--time_coverage",
+        "0.0",
+        "--M",
+        "20000",
+        "--F",
+        "100000"
+      ],
+      "K": 10,
+      "M": 20000,
+      "F": 100000
+    },
+    {
+      "variant": "Coverage: 100%",
+      "dataset": "T-2M",
+      "backbone": "trea",
+      "args": [
+        "--time_coverage",
+        "1.0",
+        "--M",
+        "50000",
+        "--F",
+        "250000"
+      ],
+      "K": 200,
+      "M": 50000,
+      "F": 250000
+    },
+    {
+      "variant": "Coverage: 75%",
+      "dataset": "T-2M",
+      "backbone": "trea",
+      "args": [
+        "--time_coverage",
+        "0.75",
+        "--M",
+        "50000",
+        "--F",
+        "250000"
+      ],
+      "K": 200,
+      "M": 50000,
+      "F": 250000
+    },
+    {
+      "variant": "Coverage: 50%",
+      "dataset": "T-2M",
+      "backbone": "trea",
+      "args": [
+        "--time_coverage",
+        "0.5",
+        "--M",
+        "50000",
+        "--F",
+        "250000"
+      ],
+      "K": 200,
+      "M": 50000,
+      "F": 250000
+    },
+    {
+      "variant": "Coverage: 25%",
+      "dataset": "T-2M",
+      "backbone": "trea",
+      "args": [
+        "--time_coverage",
+        "0.25",
+        "--M",
+        "50000",
+        "--F",
+        "250000"
+      ],
+      "K": 200,
+      "M": 50000,
+      "F": 250000
+    },
+    {
+      "variant": "Coverage: 0%",
+      "dataset": "T-2M",
+      "backbone": "trea",
+      "args": [
+        "--time_coverage",
+        "0.0",
+        "--M",
+        "50000",
+        "--F",
+        "250000"
+      ],
+      "K": 200,
+      "M": 50000,
+      "F": 250000
+    }
+  ],
+  "notes": "Granularity rows use --time_granularity; coverage rows keep native granularity and use --time_coverage.",
+  "reference": "Appendix E-F"
+}

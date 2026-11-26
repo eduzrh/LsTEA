@@ -1,0 +1,144 @@
+{
+  "experiment": "acceptance_threshold_sweep",
+  "title": "Acceptance-threshold sensitivity delta_c (TREA).",
+  "kind": "run",
+  "seeds": [
+    1011,
+    2022,
+    3033,
+    4044,
+    5055
+  ],
+  "settings": [
+    {
+      "variant": "delta_c=0.1",
+      "dataset": "YAGO-WIKI50K",
+      "backbone": "trea",
+      "args": [
+        "--delta_c",
+        "0.1",
+        "--M",
+        "20000",
+        "--F",
+        "100000"
+      ],
+      "K": 10,
+      "M": 20000,
+      "F": 100000
+    },
+    {
+      "variant": "delta_c=0.15",
+      "dataset": "YAGO-WIKI50K",
+      "backbone": "trea",
+      "args": [
+        "--delta_c",
+        "0.15",
+        "--M",
+        "20000",
+        "--F",
+        "100000"
+      ],
+      "K": 10,
+      "M": 20000,
+      "F": 100000
+    },
+    {
+      "variant": "delta_c=0.2",
+      "dataset": "YAGO-WIKI50K",
+      "backbone": "trea",
+      "args": [
+        "--delta_c",
+        "0.2",
+        "--M",
+        "20000",
+        "--F",
+        "100000"
+      ],
+      "K": 10,
+      "M": 20000,
+      "F": 100000
+    },
+    {
+      "variant": "delta_c=0.25",
+      "dataset": "YAGO-WIKI50K",
+      "backbone": "trea",
+      "args": [
+        "--delta_c",
+        "0.25",
+        "--M",
+        "20000",
+        "--F",
+        "100000"
+      ],
+      "K": 10,
+      "M": 20000,
+      "F": 100000
+    },
+    {
+      "variant": "delta_c=0.1",
+      "dataset": "T-2M",
+      "backbone": "trea",
+      "args": [
+        "--delta_c",
+        "0.1",
+        "--M",
+        "50000",
+        "--F",
+        "250000"
+      ],
+      "K": 200,
+      "M": 50000,
+      "F": 250000
+    },
+    {
+      "variant": "delta_c=0.15",
+      "dataset": "T-2M",
+      "backbone": "trea",
+      "args": [
+        "--delta_c",
+        "0.15",
+        "--M",
+        "50000",
+        "--F",
+        "250000"
+      ],
+      "K": 200,
+      "M": 50000,
+      "F": 250000
+    },
+    {
+      "variant": "delta_c=0.2",
+      "dataset": "T-2M",
+      "backbone": "trea",
+      "args": [
+        "--delta_c",
+        "0.2",
+        "--M",
+        "50000",
+        "--F",
+        "250000"
+      ],
+      "K": 200,
+      "M": 50000,
+      "F": 250000
+    },
+    {
+      "variant": "delta_c=0.25",
+      "dataset": "T-2M",
+      "backbone": "trea",
+      "args": [
+        "--delta_c",
+        "0.25",
+        "--M",
+        "50000",
+        "--F",
+        "250000"
+      ],
+      "K": 200,
+      "M": 50000,
+      "F": 250000
+    }
+  ],
+  "notes": "",
+  "reference": "Appendix E-E"
+}

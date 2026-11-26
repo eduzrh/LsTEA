@@ -1,0 +1,106 @@
+{
+  "experiment": "static_dbp15k_zh_ja",
+  "title": "Remaining static benchmarks: DBP15K ZH-EN / JA-EN.",
+  "kind": "run",
+  "seeds": [
+    1011,
+    2022,
+    3033,
+    4044,
+    5055
+  ],
+  "settings": [
+    {
+      "variant": "TPA",
+      "dataset": "DBP15K-ZH-EN",
+      "backbone": "gcn_align",
+      "args": [
+        "--strip_timestamps",
+        "--M",
+        "10000",
+        "--F",
+        "50000"
+      ],
+      "K": 5,
+      "M": 10000,
+      "F": 50000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "DBP15K-ZH-EN",
+      "backbone": "rrea",
+      "args": [
+        "--strip_timestamps",
+        "--M",
+        "10000",
+        "--F",
+        "50000"
+      ],
+      "K": 5,
+      "M": 10000,
+      "F": 50000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "DBP15K-ZH-EN",
+      "backbone": "dual_amn",
+      "args": [
+        "--strip_timestamps",
+        "--M",
+        "10000",
+        "--F",
+        "50000"
+      ],
+      "K": 5,
+      "M": 10000,
+      "F": 50000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "DBP15K-JA-EN",
+      "backbone": "gcn_align",
+      "args": [
+        "--strip_timestamps",
+        "--M",
+        "10000",
+        "--F",
+        "50000"
+      ],
+      "K": 5,
+      "M": 10000,
+      "F": 50000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "DBP15K-JA-EN",
+      "backbone": "rrea",
+      "args": [
+        "--strip_timestamps",
+        "--M",
+        "10000",
+        "--F",
+        "50000"
+      ],
+      "K": 5,
+      "M": 10000,
+      "F": 50000
+    },
+    {
+      "variant": "TPA",
+      "dataset": "DBP15K-JA-EN",
+      "backbone": "dual_amn",
+      "args": [
+        "--strip_timestamps",
+        "--M",
+        "10000",
+        "--F",
+        "50000"
+      ],
+      "K": 5,
+      "M": 10000,
+      "F": 50000
+    }
+  ],
+  "notes": "",
+  "reference": "Appendix E-H"
+}

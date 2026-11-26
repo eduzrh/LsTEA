@@ -1,0 +1,15 @@
+{
+  "experiment": "hits_over_recall_static",
+  "title": "Hits@1 / counterpart-recall ratio for GCN-Align and LightTEA.",
+  "kind": "derived",
+  "seeds": [
+    1011,
+    2022,
+    3033,
+    4044,
+    5055
+  ],
+  "settings": [],
+  "notes": "Computed from the GCN-Align and LightTEA records of backbone_comparison.",
+  "reference": "Appendix E-I"
+}
