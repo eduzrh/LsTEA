@@ -136,8 +136,7 @@ pip install -r requirements.txt
 
 
 
-![Google Drive](https://img.shields.io/badge/Google_Drive-Download-green?style=for-the-badge)
-![Google Drive Million-Scale](https://img.shields.io/badge/Google_Drive-T--2M_&_YAGO--WIKI--2M-green?style=for-the-badge)
+[![Google Drive](https://img.shields.io/badge/Google_Drive-Download-green?style=for-the-badge)](https://drive.google.com/drive/folders/11raFe7shjMvendajb2wZ0Ab4xPB090YE?usp=sharing)
 
 
 
